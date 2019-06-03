@@ -7,9 +7,9 @@ import java.sql.SQLException;
  *
  */
 public interface Query {
-	/**
-	 * @param Connection
-	 * @throws SQLException
-	 */
-	void query(Connection connection) throws SQLException;
+  /**
+   * @param Connection
+   * @throws SQLException
+   */
+  void query(Connection connection) throws SQLException;
 }

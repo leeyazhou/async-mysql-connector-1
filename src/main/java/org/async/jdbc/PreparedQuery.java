@@ -8,10 +8,10 @@ import java.sql.SQLException;
  */
 public interface PreparedQuery {
 
-	/**
-	 * @param PreparedStatement
-	 * @throws SQLException
-	 */
-	void query(PreparedStatement pstmt) throws SQLException;
+  /**
+   * @param PreparedStatement
+   * @throws SQLException
+   */
+  void query(PreparedStatement pstmt) throws SQLException;
 
 }

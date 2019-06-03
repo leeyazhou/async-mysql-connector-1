@@ -9,52 +9,52 @@ import java.sql.Timestamp;
  *
  */
 public interface ResultSet {
-	Byte getByte(int idx);
+  Byte getByte(int idx);
 
-	Short getShort(int idx);
+  Short getShort(int idx);
 
-	Integer getInteger(int idx);
+  Integer getInteger(int idx);
 
-	Long getLong(int idx);
+  Long getLong(int idx);
 
-	Float getFloat(int idx);
+  Float getFloat(int idx);
 
-	Double getDouble(int idx);
+  Double getDouble(int idx);
 
-	Time getTime(int idx);
+  Time getTime(int idx);
 
-	Date getDate(int idx);
+  Date getDate(int idx);
 
-	Timestamp getTimestamp(int idx);
+  Timestamp getTimestamp(int idx);
 
-	String getString(int idx);
+  String getString(int idx);
 
-	byte[] getBytes(int idx);
+  byte[] getBytes(int idx);
 
-	boolean hasNext();
+  boolean hasNext();
 
-	void next();
+  void next();
 
-	Byte getByte(String name);
+  Byte getByte(String name);
 
-	Short getShort(String name);
+  Short getShort(String name);
 
-	Integer getInteger(String name);
+  Integer getInteger(String name);
 
-	Long getLong(String name);
+  Long getLong(String name);
 
-	Float getFloat(String name);
+  Float getFloat(String name);
 
-	Double getDouble(String name);
+  Double getDouble(String name);
 
-	Time getTime(String name);
+  Time getTime(String name);
 
-	Date getDate(String name);
+  Date getDate(String name);
 
-	Timestamp getTimestamp(String name);
+  Timestamp getTimestamp(String name);
 
-	String getString(String name);
+  String getString(String name);
 
-	byte[] getBytes(String name);
+  byte[] getBytes(String name);
 
 }

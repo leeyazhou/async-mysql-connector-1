@@ -7,8 +7,8 @@ import java.sql.SQLException;
  *
  */
 public interface Callback {
-	/**
-	 * @param SQLException
-	 */
-	void onError(SQLException e);
+  /**
+   * @param SQLException
+   */
+  void onError(SQLException e);
 }
